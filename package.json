@@ -1,0 +1,15 @@
+{
+  "name": "timetracker",
+  "version": "0.0.1",
+  "description": "A time tracker webapp",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "mocha --parallel examples/**/*.mjs",
+    "test:watch": "mocha --watch --parallel",
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3"
+  }
+}
